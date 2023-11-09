@@ -155,3 +155,15 @@ footer{
     background-color: #567D89;
     text-align: center;
 }
+
+#back-to-top{
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+    background-color: #80343F;
+    color: rgb(0, 0, 0);
+    transition: 300ms ease;
+    border-radius: 0.3em;
+    padding: 0.25em;
+    text-decoration: none;
+}
