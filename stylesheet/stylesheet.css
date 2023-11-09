@@ -1,0 +1,157 @@
+body{
+    color: rgb(29, 7, 45);
+    background-color: #C4D2D6;
+    font-size: 1em;
+    background-image: url(../images/achtergrond_patroon_zwart.png);
+    background-repeat: repeat-y;
+    width: fit-content;
+    margin: auto;
+}
+
+nav{
+    position: fixed;
+    bottom: 0;
+    background-color: #80343F;
+    width: 100%;
+}
+
+header nav ul li{
+    margin: auto;
+    background-color: #567D89;
+    list-style-type: none;
+    border-radius: 1em;
+    padding: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+}
+
+header img{
+    width: 30%;
+    height: auto;
+}
+
+nav ul{
+    display: flex; 
+    justify-content: space-around;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    background-color: #80343F;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    text-align: center;
+    width: 100%;
+}
+
+main a{
+    border-radius: 1em;
+    padding: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    background-color:#80343F
+}
+
+h1, h2, h3, a{
+    font-family: 'Lobster', sans-serif;
+}
+
+h2, h3{
+    border-radius: 1em;
+    padding: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    text-align: center;
+}
+
+section{
+    margin: 1em 1em 1em 1em;
+    border: 0.2em double black;
+    border-radius: 1em;
+    background-color: #EDB85C
+}
+
+p{
+    font-family: 'Exo 2', sans-serif;
+    padding: 0em 0.3em 0.4em 0.3em;
+    margin-left: 1em;
+}
+
+main a{
+    color: black;
+    text-decoration: none;
+}
+
+
+main img{
+    width: 50%;
+    background-color: #EDB85C;
+    padding: 1em;
+    border-radius: 1em;
+    margin: auto;
+}
+ 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home img{
+    border-radius: 30%;
+    background-color: #567D89;
+}
+
+.home section:first-of-type{
+    background-color: #567D89;
+}
+
+.home section:nth-of-type(3){
+    background-color: #567D89;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.home a{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%
+}
+ 
+.recordfriend section:first-of-type{
+    background-color: #567D89;
+}
+
+.recordfriend section:nth-of-type(3){
+    background-color: #567D89;
+}
+
+.recordfriend a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%
+}
+
+.ruildagen section:nth-of-type(2){
+    background-color: #567D89;
+}
+
+.ruildagen a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%
+}
+
+footer{
+    padding-bottom: 3em;
+    background-color: #567D89;
+    text-align: center;
+}
